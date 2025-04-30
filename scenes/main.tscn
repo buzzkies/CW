@@ -1,0 +1,12 @@
+
+[gd_scene load_steps=3 format=3 uid="uid://main_scene"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+current = true
+
+[node name="Player" type="CharacterBody2D" parent="."]
+
+position = Vector2(100, 300)
